@@ -1,2 +1,4 @@
 git init : init one repositiy.
 git add : add some file to the staging area.
+git commit -m ""
+git commit --amend
