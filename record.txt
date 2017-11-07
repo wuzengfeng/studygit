@@ -2,3 +2,29 @@ git init : init one repositiy.
 git add : add some file to the staging area.
 git commit -m ""
 git commit --amend
+git config --global user.name "mtk60457"
+git config --global user.email "zengfeng.airoha.com.tw"
+git config --list
+git rm 1.txt : delete working file and tell staging, so need to git commit
+git log --oneline    :   git reflog    
+git log -5
+git reflog
+git cherry-pick
+git tag 
+git tag V10 comitid
+git show V10
+git push origin V10
+git push origin :refs/tags/V10
+git tag -d V10
+git remote
+git remote show origin
+git reset -- file
+git checkout -- file
+git reset --hard commitid
+git reset --soft ommitid
+git stash save "add something"
+git stash list
+git stash pop 0
+git stash apply 0
+git stash drop 0
+git archive -o code.rar HEAD
